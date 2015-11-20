@@ -4,11 +4,11 @@
  * @ngdoc function
  * @name coopwebclassgithubioApp.controller:AboutCtrl
  * @description
- * # AboutCtrl
+ * # AssignmentsCtrl
  * Controller of the coopwebclassgithubioApp
  */
 angular.module('coopwebclassgithubioApp')
-  .controller('AboutCtrl', function () {
+  .controller('AssignmentsCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
