@@ -27,7 +27,7 @@ angular
       .when('/assignments', {
         templateUrl: 'views/assignments.html',
         controller: 'AssignmentsCtrl',
-        controllerAs: 'assignments'
+        controllerAs: 'assignments',
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',

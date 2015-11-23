@@ -1,3 +1,9 @@
+.loading {
+  .fa-spinner {
+    font-size: 3em;
+  }
+}
+
 .navbar {
   background: #fff;
   border: none;
@@ -17,74 +23,6 @@
 .upcoming-title {
   h1 {
     font-weight: 300;
-  }
-}
-
-.post-list {
-  padding: 1em 0 4em;
-}
-
-.post-item {
-  display: flex;
-  align-items: flex-start;
-  margin: 0 0 1.5em 0;
-  &:last-child {
-    margin-bottom: 0.5em;
-  }
-}
-
-.post-item__date {
-  padding: 0.35em;
-  border-radius: 3px;
-  line-height: 1em;
-  text-align: center;
-  flex-basis: auto;
-  flex-grow: 1;
-  > .month {
-    opacity: 0.25;
-    font-weight: 400;
-  }
-  > .day {
-    font-size: 1.75em;
-    font-weight: 500;
-    line-height: 0.9em;
-  }
-}
-
-.post-item {
-  margin-bottom: 2em;
-}
-
-.post-item__title {
-  position: relative;
-  padding: 0.2em 0 0 0;
-  line-height: 1.4em;
-  margin-left: 1em;
-  font-weight: 300;
-  > a {
-    font-size: 1.75em;
-    color: inherit;
-    opacity: 0.9;
-    text-decoration: none;
-    &:hover {
-      opacity: 1;
-    }
-  }
-  p {
-    margin: .75em 0 1.15em 0;  
-  }
-  .divided & {
-    margin-left: 1.125em;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0.35em;
-      right: calc(100% + 0.75em);
-      width: 0;
-      height: calc(100%);
-      border-right: 1px solid rgba(34,36,38,.15);
-      border-left: 1px solid rgba(255,255,255,.1);
-    }    
   }
 }
 

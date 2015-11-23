@@ -41,17 +41,17 @@
             <ul class="nav navbar-nav">
               <li><a ng-href="#/">Home</a></li>
               <li><a ng-href="#/assignments">Assignments</a></li>
-              <li><a ng-href="#/sylubus">Sylubus</a></li>
-              <li><a ng-href="#/contact">Contact</a></li>
+              <li><a ng-href="#/sylubus">Syllabus</a></li>
+              <!-- <li><a ng-href="#/contact">Contact</a></li> -->
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- <div class="container-fluid"> -->
-    <div ng-view=""></div>
-    <!-- </div> -->
+    <div ng-view="" class="container">
+      <span class="loading"><i class="fa fa-spinner fa-spin"></i></span><br><br>
+    </div>
 
     <div class="footer">
       <div class="container">
@@ -88,7 +88,10 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/assignments.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <script src="scripts/controllers/viewpost.js"></script>
+        <script src="scripts/controllers/singleassignment.js"></script>
         <!-- endbuild -->
 </body>
 </html>

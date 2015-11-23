@@ -8,10 +8,11 @@
  * Controller of the coopwebclassgithubioApp
  */
 angular.module('coopwebclassgithubioApp')
-  .controller('ContactCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+  .controller('ContactCtrl', function($scope) {
+    $scope.test = [
+      {name: 'Mason'},
+      {name: 'Joe'},
+      {name: 'Chloe'},
+      {name: 'Bob'}
     ];
   });
